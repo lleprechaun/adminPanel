@@ -2,9 +2,8 @@
   <q-list bordered separator>
     <q-item
       clickable v-ripple
-      tag="a"
-      target="_blank"
       @click="selectedLink"
+      :to="link"
     >
       <q-item-section>
         <q-item-label>{{ title }}</q-item-label>
